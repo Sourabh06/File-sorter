@@ -1,6 +1,7 @@
 import os
 import time
 import shutil
+import numpy
 
 currentPath = os.getcwd()
 
@@ -25,4 +26,4 @@ for fname in os.listdir(currentPath):
 		except OSError:
 			print("Creation of directory %s failed" %temp_path) 
 
-print("Sorted successfully")
+print("File Sorted successfully")
